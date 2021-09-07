@@ -1,0 +1,38 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "core-js": "^3.15.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nuxt": "^2.15.7",
+    "sass": "^1.38.1",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-virtual-scroll-list": "^2.3.2",
+    "vue-virtual-scroller": "^1.0.10",
+    "vuetify": "^1.5.24",
+    "vuetify-loader": "^1.0.5",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript": "^2.8.1",
+    "@nuxt/typescript-build": "^2.1.0",
+    "node-sass": "^5.0.0",
+    "nuxt-property-decorator": "^2.9.1",
+    "sass-loader": "^10.2.0",
+    "vuex": "^3.6.2"
+  }
+}
