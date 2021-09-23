@@ -29,7 +29,13 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: "~/plugins/vue-infinite-loading.js" }],
+  plugins: [
+    {
+      src: "~/plugins/vue-infinite-loading.js"
+    },
+    { src: "~/plugins/vue-virtual-scroller.js" },
+    { src: "~/plugins/vuetify.js" }
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: false, //내가 하나하나 등록하지 않아도 자동으로 등록된다( 대신 빌드시간이 오래걸린다.) -> 하지만 false로 빌드시간 단축
